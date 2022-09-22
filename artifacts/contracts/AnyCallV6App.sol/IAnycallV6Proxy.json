@@ -1,0 +1,57 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IAnycallV6Proxy",
+  "sourceName": "contracts/AnyCallV6App.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_to",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes",
+          "name": "_data",
+          "type": "bytes"
+        },
+        {
+          "internalType": "address",
+          "name": "_fallback",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_toChainID",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_flags",
+          "type": "uint256"
+        }
+      ],
+      "name": "anyCall",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "executor",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
